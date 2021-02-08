@@ -8,7 +8,7 @@ fun main(){
 ```
 
 - [ ] `.withIndex()`
-- [ ] `.forEachIndexed()`
+- [x] `.forEachIndexed()`
 - [ ] `.forEach()`
 - [ ] `.forIndexes()`
 
@@ -27,14 +27,14 @@ class Airplane(private val name: String) : Aircraft() {
 - [ ] Classes are initialized in the same order they are in the file, therefore, Aircraft should appear after Airplane
 - [ ] The code needs to pass the parameter to the base class's primary constructor. Since it does not, it receives a null
 - [ ] Abstract function always returns null
-- [ ] A superclass is initialized before its subclass. Therefore, name has not been set before it is rendered
+- [x] A superclass is initialized before its subclass. Therefore, name has not been set before it is rendered
 
 #### Q3. Kotlin interfaces ad abstract classes are very similar. What is one thing abstract class can do that interfaces cannot?
 
 - [ ] Only abstract classes are inheritable by subclasses
 - [ ] Only abstract classes can inherit from multiple superclasses
 - [ ] Only abstract classes can have abstract methods
-- [ ] Only abstract classes can store state
+- [x] Only abstract classes can store state
 
 #### Q4. Inside an extension function, what is the name of the variable that corresponds to the receiver object
 
@@ -81,7 +81,7 @@ fun main() {
 }
 ```
 
-- [ ] While the code runs, it does not produce correct results
+- [x] While the code runs, it does not produce correct results
 - [ ] The integer is always a class
 - [ ] The compiler runs an implicit .toClass() method on the integer
 - [ ] The integer is autoboxed to a Kotlin Int class
@@ -97,12 +97,12 @@ val task = launch {
 - [ ] `task.join()`
 - [ ] `task.abort()`
 - [ ] `job.stop()`
-- [ ] `task.cancel()`
+- [x] `task.cancel()`
 
 #### Q10. You are attempting to assign an integer variable to a long variable, but Kotlin compiler flags it as an error. Why?
 
 - [ ] You must wrap all implicit conversion in a try/catch block
-- [ ] You can only assign Long to an Int, not the other way around
+- [x] You can only assign Long to an Int, not the other way around
 - [ ] There is no implicit conversion from Int to Long
 - [ ] All integers in Kotlin are of type Long
 
@@ -118,13 +118,13 @@ when (die) {
 ```
 
 - [ ] `3,4,5,6`
-- [ ] `in 3..6`
+- [x] `in 3..6`
 - [ ] `3 : 6`
 - [ ] `{3,4,5,6}`
 
 #### Q12. The function **typeChecker** receiver a parameter **obj** of type **Any**. Based upon the type of **obj**, it prints different messages for Int, String, Double, and Float types; if not any of the mentioned types, it prints "unknown type". What operator allows you to determine the type of an object?
 
-- [ ] instanceof
+- [x] instanceof
 - [ ] is
 - [ ] typeof
 - [ ] as
@@ -138,7 +138,7 @@ firstName?.let {
 ```
 
 - [ ] A null pointer exception is thrown
-- [ ] firstName is equal to null
+- [x] firstName is equal to null
 - [ ] firstName is equal to an empty string
 - [ ] firstName is equal to Boolean false
 
@@ -157,7 +157,7 @@ fun main() {
 ```
 
 - [ ] The code will give a stack overflow error
-- [ ] The compiler warns of insignificant performance impact
+- [x] The compiler warns of insignificant performance impact
 - [ ] The compiler warns of significant memory usage
 - [ ] The code is significantly faster
 
@@ -169,7 +169,7 @@ for (_____) {
 }
 ```
 
-- [ ] `count in 1..10`
+- [x] `count in 1..10`
 - [ ] `count in 2..10 step 2`
 - [ ] `count in 1..10 % 2`
 - [ ] `var count=2; count <= 10; count+=2`
@@ -181,7 +181,7 @@ val set = setOf("apple", "pear", "orange", "apple")
 println(set.count())
 ```
 
-- [ ] 3
+- [x] 3
 - [ ] 4
 - [ ] 1
 - [ ] 5
@@ -189,7 +189,7 @@ println(set.count())
 #### Q17. Which line of code shows how to display a nullable string's length and shows 0 instead of null?
 
 - [ ] `println(b!!.length ?: 0)`
-- [ ] `println(b?.length ?: 0)`
+- [x] `println(b?.length ?: 0)`
 - [ ] `println(b?.length ?? 0)`
 - [ ] `println(b == null? 0: b.length)`
 
@@ -199,7 +199,7 @@ println(set.count())
 val list2 = (80..100).toList().filter(_____)
 ```
 
-- [ ] `::removeBadValues`
+- [x] `::removeBadValues`
 - [ ] `GlobalScope.removeBadValues()`
 - [ ] `Mainkt.removeBadValues`
 - [ ] `removeBadValues`
